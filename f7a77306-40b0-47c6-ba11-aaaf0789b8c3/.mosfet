@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "f7a77306-40b0-47c6-ba11-aaaf0789b8c3",
+  "hidden": false,
+  "insightName": "Show first 500 records from WEEKLY_DATA",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"911bf0e9-0378-45bd-9461-87238e9d3b2f\") | Select(WEEKLY_DATA__volume, WEEKLY_DATA__high, WEEKLY_DATA__low, WEEKLY_DATA__Symbol, WEEKLY_DATA__close, WEEKLY_DATA__WEEKLY_DATA_UNIQUE_ROW_ID, WEEKLY_DATA__open, WEEKLY_DATA__timestamp) | Limit(500) | Import();Frame() | Select(volume, high, low, Symbol, close, WEEKLY_DATA_UNIQUE_ROW_ID, open, timestamp) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions({\"0\":{\"layout\":\"Grid\",\"alignment\":{\"label\":[\"volume\", \"high\", \"low\", \"Symbol\", \"close\", \"WEEKLY_DATA_UNIQUE_ROW_ID\", \"open\", \"timestamp\"]}}}) | Collect(500);",
+  "engineId": "911bf0e9-0378-45bd-9461-87238e9d3b2f"
+}
