@@ -1,0 +1,1 @@
+with(a3bac69390e344fc59eb552728ccdde65, {ROOT <- 'C:/workspace/SemossDev/db/Stock Market__911bf0e9-0378-45bd-9461-87238e9d3b2f/version/b1b75067-a961-437a-b5f4-03013be4067c';colnames(FRAME159183) <- c("review", "name", "change_pct", "day_change", "last_trade_time", "open", "price", "Symbol", "timestamp", "yahoo", "yahoofinance", "author", "retweet_count", "sentiment")});
