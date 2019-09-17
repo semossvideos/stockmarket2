@@ -7,12 +7,12 @@ score_sentiment<-function(df){
   n<-nrow(df)
   names(df)<-"review"
   if(n>0){
-                 for(i in 1:n){
-                               review<-gsub("_"," ",as.character(df$review[i]))
-                               score<-mean(sentiment(review)$sentiment)
-                               out<-append(out,score)
-                 }
-                 df$sentiment<-out
+     for(i in 1:n){
+                   review<-gsub("_"," ",as.character(df$review[i]))
+                   score<-mean(sentiment(review)$sentiment)
+                   out<-append(out,score)
+     }
+     df$sentiment<-out
   }
   return(df)
 }
