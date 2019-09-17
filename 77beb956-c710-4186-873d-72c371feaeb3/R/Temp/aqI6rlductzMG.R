@@ -1,0 +1,1 @@
+with(a2ee7f2f5b4be4d08b1d861ea77f09209, {ROOT <- '/opt/semosshome/db/Stock Market__911bf0e9-0378-45bd-9461-87238e9d3b2f/version/77beb956-c710-4186-873d-72c371feaeb3';FRAME159183$yahoofinance <- paste(FRAME159183$yahoo, FRAME159183$Symbol, sep = "")});

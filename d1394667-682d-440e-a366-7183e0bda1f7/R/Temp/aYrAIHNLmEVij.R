@@ -1,0 +1,1 @@
+with(ad3142adfbda54092ad5f031374d60633, {ROOT <- '/opt/semosshome/db/Stock Market__911bf0e9-0378-45bd-9461-87238e9d3b2f/version/d1394667-682d-440e-a366-7183e0bda1f7';rm(list=ls())});

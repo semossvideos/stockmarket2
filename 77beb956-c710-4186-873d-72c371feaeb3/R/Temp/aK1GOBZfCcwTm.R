@@ -1,0 +1,1 @@
+with(ab95cc4fde4fc4081a57b58b41f9cee1f, {ROOT <- '/opt/semosshome/db/Stock Market__911bf0e9-0378-45bd-9461-87238e9d3b2f/version/77beb956-c710-4186-873d-72c371feaeb3';FRAME159183[,(c('timestamp')) := lapply(.SD, function(x) as.Date(x, format='%Y-%m-%d')), .SDcols = c('timestamp')]});
