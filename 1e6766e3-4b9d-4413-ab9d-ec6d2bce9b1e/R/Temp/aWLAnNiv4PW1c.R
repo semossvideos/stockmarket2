@@ -1,0 +1,1 @@
+with(a81d00573d8cf4b16b7831cf1e01bbd32, {ROOT <- 'C:/workspace/Semoss_Dev/db/Stock Market__911bf0e9-0378-45bd-9461-87238e9d3b2f/version/1e6766e3-4b9d-4413-ab9d-ec6d2bce9b1e';rm(list=ls())});
