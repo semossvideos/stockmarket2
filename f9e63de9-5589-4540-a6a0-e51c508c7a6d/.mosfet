@@ -1,8 +1,0 @@
-{
-  "layout": "federate-view",
-  "rdbmsId": "f9e63de9-5589-4540-a6a0-e51c508c7a6d",
-  "hidden": false,
-  "insightName": "Stock Market Dashboard v2",
-  "recipe": "AddPanel ( 0 ) ;Panel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;Panel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"\u003cencode\u003e(\u003cFrame\u003e | UnfilterFrame(\u003cSelectedColumn\u003e));\u003c/encode\u003e\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"\u003cencode\u003eif((IsEmpty(\u003cSelectedValues\u003e)),(\u003cFrame\u003e | UnfilterFrame(\u003cSelectedColumn\u003e)), (\u003cFrame\u003e | SetFrameFilter(\u003cSelectedColumn\u003e\u003d\u003d\u003cSelectedValues\u003e)));\u003c/encode\u003e\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;Panel ( 0 ) | RetrievePanelEvents ( ) ;Panel ( 0 ) | SetPanelView ( \"visualization\" , \"\u003cencode\u003e{\"type\":\"echarts\"}\u003c/encode\u003e\" ) ;Panel ( 0 ) | SetPanelView ( \"federate-view\" , \"\u003cencode\u003e{\"app_id\":\"NEWSEMOSSAPP\"}\u003c/encode\u003e\" ) ;",
-  "engineId": "911bf0e9-0378-45bd-9461-87238e9d3b2f"
-}
